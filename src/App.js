@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import Cards from "./components/card/Cards";
 import Header from "./components/header/Header";
 import data from "./helper/data";
