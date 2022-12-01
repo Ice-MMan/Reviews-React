@@ -1,17 +1,22 @@
-import React from "react";
-// import ReactDOM from "react-dom";
-import Cards from "./components/card/Cards";
-import Header from "./components/header/Header";
-import data from "./helper/data";
+import React from 'react';
+import './App.css'
+import Card from './components/card/Card';
+import Header from './components/header/Header';
+import data from './helper/data'
+
+
+
+import Review from './Review';
+
 
 function App() {
-  // console.log(data);
-  return (
+  return(
     <>
-      <Header />
-      <Cards data={data} />
-    </>
-  );
+
+<Header/>
+<Card data={data} />
+  </>
+  ) 
 }
 
 export default App;
